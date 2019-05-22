@@ -1,5 +1,7 @@
-.pdf
 PublicService-checkpoint.ipynb
 venv/
 gedsOpenData.csv
 pycon-pandas-tutorial/
+data/
+.ipynb_checkpoints/
+
