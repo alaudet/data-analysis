@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ac4b53f1aa1c44c792af0a0bd697640f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ac4b53f1aa1c44c792af0a0bd697640f" ></div>
+        
+</body>
+<script>    
+    
+            var map_ac4b53f1aa1c44c792af0a0bd697640f = L.map(
+                "map_ac4b53f1aa1c44c792af0a0bd697640f",
+                {
+                    center: [49.641438, -97.389353],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8f00ea41b1f420abbaa39926e71e0f9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+            var circle_marker_e4507252acea4375a57e0f484709d263 = L.circleMarker(
+                [53.364, -113.377],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_649c7296065f4dc6a103fcbcb6f066c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_642288e0f04443f8a0dfaef26afbb640 = $(`<div id="html_642288e0f04443f8a0dfaef26afbb640" style="width: 100.0%; height: 100.0%;">Edmonton #1AB,1987 27 Deaths</div>`)[0];
+            popup_649c7296065f4dc6a103fcbcb6f066c0.setContent(html_642288e0f04443f8a0dfaef26afbb640);
+        
+
+        circle_marker_e4507252acea4375a57e0f484709d263.bindPopup(popup_649c7296065f4dc6a103fcbcb6f066c0)
+        ;
+
+        
+    
+    
+            var circle_marker_157eec44f9dc44c2a7794cd249814283 = L.circleMarker(
+                [52.0875, -113.5979],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_61fec6a0b6d94ede967412df25409723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8013657176a4d0e9cb1d2dd28bca4ba = $(`<div id="html_f8013657176a4d0e9cb1d2dd28bca4ba" style="width: 100.0%; height: 100.0%;">Pine LakeAB,2000 12 Deaths</div>`)[0];
+            popup_61fec6a0b6d94ede967412df25409723.setContent(html_f8013657176a4d0e9cb1d2dd28bca4ba);
+        
+
+        circle_marker_157eec44f9dc44c2a7794cd249814283.bindPopup(popup_61fec6a0b6d94ede967412df25409723)
+        ;
+
+        
+    
+    
+            var circle_marker_a30cdb01bc244d3b94818e7f509edfe6 = L.circleMarker(
+                [44.339, -79.738],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_8d7d332e0ee54241ac65c36902bd13eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e3a3a37187b4f58aeef0b18c3a655f6 = $(`<div id="html_3e3a3a37187b4f58aeef0b18c3a655f6" style="width: 100.0%; height: 100.0%;">BarrieON,1985 8 Deaths</div>`)[0];
+            popup_8d7d332e0ee54241ac65c36902bd13eb.setContent(html_3e3a3a37187b4f58aeef0b18c3a655f6);
+        
+
+        circle_marker_a30cdb01bc244d3b94818e7f509edfe6.bindPopup(popup_8d7d332e0ee54241ac65c36902bd13eb)
+        ;
+
+        
+    
+    
+            var circle_marker_21cdb4b6b91c46d7a84ca995cb7025e4 = L.circleMarker(
+                [43.837, -80.589],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_f6c7fc583a2047f0a0f27e3c6b1494ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68ec3d87d1d8428398ac28dfb16de3c0 = $(`<div id="html_68ec3d87d1d8428398ac28dfb16de3c0" style="width: 100.0%; height: 100.0%;">Grand Valley to TottenhamON,1985 4 Deaths</div>`)[0];
+            popup_f6c7fc583a2047f0a0f27e3c6b1494ad.setContent(html_68ec3d87d1d8428398ac28dfb16de3c0);
+        
+
+        circle_marker_21cdb4b6b91c46d7a84ca995cb7025e4.bindPopup(popup_f6c7fc583a2047f0a0f27e3c6b1494ad)
+        ;
+
+        
+    
+    
+            var circle_marker_d118c9b74ed6401ba0af37206df2b8ae = L.circleMarker(
+                [50.4399, -93.153],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_35355efe125340aa8edcf94952cc18e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f981312fa944e2fbec1af9d796e1fc1 = $(`<div id="html_4f981312fa944e2fbec1af9d796e1fc1" style="width: 100.0%; height: 100.0%;">Near Ear Falls / Lac Seul #1ON,2009 3 Deaths</div>`)[0];
+            popup_35355efe125340aa8edcf94952cc18e4.setContent(html_4f981312fa944e2fbec1af9d796e1fc1);
+        
+
+        circle_marker_d118c9b74ed6401ba0af37206df2b8ae.bindPopup(popup_35355efe125340aa8edcf94952cc18e4)
+        ;
+
+        
+    
+    
+            var circle_marker_c420de2391534e668d19231762f7db42 = L.circleMarker(
+                [54.8815, -113.2815],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_86b0615fa3d94c5089640931152fc7bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20fab167715e47d2b9a414bd8ea60ae6 = $(`<div id="html_20fab167715e47d2b9a414bd8ea60ae6" style="width: 100.0%; height: 100.0%;">Big CouleeAB,1984 1 Deaths</div>`)[0];
+            popup_86b0615fa3d94c5089640931152fc7bf.setContent(html_20fab167715e47d2b9a414bd8ea60ae6);
+        
+
+        circle_marker_c420de2391534e668d19231762f7db42.bindPopup(popup_86b0615fa3d94c5089640931152fc7bf)
+        ;
+
+        
+    
+    
+            var circle_marker_5ff44066d1084405a788ada6f2452192 = L.circleMarker(
+                [45.971061999999996, -77.232548],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_280229947a8348a6943887c3998f1e82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_180b671ed7cc40dc8b1644def822e90a = $(`<div id="html_180b671ed7cc40dc8b1644def822e90a" style="width: 100.0%; height: 100.0%;">Sheenboro to BouchetteQC,1984 1 Deaths</div>`)[0];
+            popup_280229947a8348a6943887c3998f1e82.setContent(html_180b671ed7cc40dc8b1644def822e90a);
+        
+
+        circle_marker_5ff44066d1084405a788ada6f2452192.bindPopup(popup_280229947a8348a6943887c3998f1e82)
+        ;
+
+        
+    
+    
+            var circle_marker_457267e626674a00aa4927542354a6b0 = L.circleMarker(
+                [42.99, -80.6],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_c982d8ff77174041bec630b4176e83bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9a1921bf39747d2b7e5b4dc511b1219 = $(`<div id="html_f9a1921bf39747d2b7e5b4dc511b1219" style="width: 100.0%; height: 100.0%;">Norwich TownshipON,1990 1 Deaths</div>`)[0];
+            popup_c982d8ff77174041bec630b4176e83bc.setContent(html_f9a1921bf39747d2b7e5b4dc511b1219);
+        
+
+        circle_marker_457267e626674a00aa4927542354a6b0.bindPopup(popup_c982d8ff77174041bec630b4176e83bc)
+        ;
+
+        
+    
+    
+            var circle_marker_09ca24d654114b6cbfd886fa64594a8b = L.circleMarker(
+                [44.39, -78.384],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_f7a25218b98f483d993b0dfb9bded84b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12023bf1ce184562a9bdf0c716f83f46 = $(`<div id="html_12023bf1ce184562a9bdf0c716f83f46" style="width: 100.0%; height: 100.0%;">BridgenorthON,1995 1 Deaths</div>`)[0];
+            popup_f7a25218b98f483d993b0dfb9bded84b.setContent(html_12023bf1ce184562a9bdf0c716f83f46);
+        
+
+        circle_marker_09ca24d654114b6cbfd886fa64594a8b.bindPopup(popup_f7a25218b98f483d993b0dfb9bded84b)
+        ;
+
+        
+    
+    
+            var circle_marker_30f167ccaca14fa99ceb003a2ba8871a = L.circleMarker(
+                [50.421, -96.646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_6a3398dcf6e6451db15076ad21ab1aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c615a0f1c4f432b84fdc8b11a17be42 = $(`<div id="html_3c615a0f1c4f432b84fdc8b11a17be42" style="width: 100.0%; height: 100.0%;">Patricia BeachMB,2006 1 Deaths</div>`)[0];
+            popup_6a3398dcf6e6451db15076ad21ab1aca.setContent(html_3c615a0f1c4f432b84fdc8b11a17be42);
+        
+
+        circle_marker_30f167ccaca14fa99ceb003a2ba8871a.bindPopup(popup_6a3398dcf6e6451db15076ad21ab1aca)
+        ;
+
+        
+    
+    
+            var circle_marker_e570949bdcb44036b7eee830fc98b0b6 = L.circleMarker(
+                [44.0773, -80.9344],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_ac4b53f1aa1c44c792af0a0bd697640f);
+        
+    
+        var popup_599aa11ea25c4aeb82e0c6eb0812af8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3987770638d044b1b8cc674d9a6a4c27 = $(`<div id="html_3987770638d044b1b8cc674d9a6a4c27" style="width: 100.0%; height: 100.0%;">DurhamON,2009 1 Deaths</div>`)[0];
+            popup_599aa11ea25c4aeb82e0c6eb0812af8b.setContent(html_3987770638d044b1b8cc674d9a6a4c27);
+        
+
+        circle_marker_e570949bdcb44036b7eee830fc98b0b6.bindPopup(popup_599aa11ea25c4aeb82e0c6eb0812af8b)
+        ;
+
+        
+    
+</script>

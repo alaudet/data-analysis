@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55ed1b880b8e48299aa11266ab7b3bb3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_55ed1b880b8e48299aa11266ab7b3bb3" ></div>
+        
+</body>
+<script>    
+    
+            var map_55ed1b880b8e48299aa11266ab7b3bb3 = L.map(
+                "map_55ed1b880b8e48299aa11266ab7b3bb3",
+                {
+                    center: [49.641438, -97.389353],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_06b0228fd1ad49019f860099018dda49 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+            var circle_marker_ed91e4cbb94b4248b0827c900d478ebf = L.circleMarker(
+                [44.0773, -80.9344],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_b4522af872304f0a9973c239865e4533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cef57c0e27e24671ab3fe39f87e4ccbd = $(`<div id="html_cef57c0e27e24671ab3fe39f87e4ccbd" style="width: 100.0%; height: 100.0%;">DurhamON,2009 1 Deaths</div>`)[0];
+            popup_b4522af872304f0a9973c239865e4533.setContent(html_cef57c0e27e24671ab3fe39f87e4ccbd);
+        
+
+        circle_marker_ed91e4cbb94b4248b0827c900d478ebf.bindPopup(popup_b4522af872304f0a9973c239865e4533)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb3de06d2c649f7aa26924b9b196bde = L.circleMarker(
+                [44.4548, -80.4825],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_7569f1c261e642fa8b746154ae9b4890 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674fd9c0e4ba47a18eab65163d596089 = $(`<div id="html_674fd9c0e4ba47a18eab65163d596089" style="width: 100.0%; height: 100.0%;">The Blue MountainsON,2009 0 Deaths</div>`)[0];
+            popup_7569f1c261e642fa8b746154ae9b4890.setContent(html_674fd9c0e4ba47a18eab65163d596089);
+        
+
+        circle_marker_2fb3de06d2c649f7aa26924b9b196bde.bindPopup(popup_7569f1c261e642fa8b746154ae9b4890)
+        ;
+
+        
+    
+    
+            var circle_marker_d1450022b67243c3aa2bd8a51f413974 = L.circleMarker(
+                [44.3526, -79.9742],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_ed39319232a84e1b9c3e0b81a05f27f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca7abdabf2904a3b9a7100a49ae6a5a8 = $(`<div id="html_ca7abdabf2904a3b9a7100a49ae6a5a8" style="width: 100.0%; height: 100.0%;">New LowellON,2009 0 Deaths</div>`)[0];
+            popup_ed39319232a84e1b9c3e0b81a05f27f7.setContent(html_ca7abdabf2904a3b9a7100a49ae6a5a8);
+        
+
+        circle_marker_d1450022b67243c3aa2bd8a51f413974.bindPopup(popup_ed39319232a84e1b9c3e0b81a05f27f7)
+        ;
+
+        
+    
+    
+            var circle_marker_35c3ba9c974f455884d698e359956ba7 = L.circleMarker(
+                [45.885061, -79.955382],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_30dd79a8385a40c88ccd0756c97be921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fe9a9743e3244989cc9129fbd80d3f8 = $(`<div id="html_6fe9a9743e3244989cc9129fbd80d3f8" style="width: 100.0%; height: 100.0%;">ArnsteinON,2009 0 Deaths</div>`)[0];
+            popup_30dd79a8385a40c88ccd0756c97be921.setContent(html_6fe9a9743e3244989cc9129fbd80d3f8);
+        
+
+        circle_marker_35c3ba9c974f455884d698e359956ba7.bindPopup(popup_30dd79a8385a40c88ccd0756c97be921)
+        ;
+
+        
+    
+    
+            var circle_marker_f46e6daecf894b6eaf945cd19b74fc39 = L.circleMarker(
+                [44.077358000000004, -79.355971],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_daede39b347e46c08512a3bf5c5f2593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3688f6587ea545038b1d7d46266d33cb = $(`<div id="html_3688f6587ea545038b1d7d46266d33cb" style="width: 100.0%; height: 100.0%;">NewmarketON,2009 0 Deaths</div>`)[0];
+            popup_daede39b347e46c08512a3bf5c5f2593.setContent(html_3688f6587ea545038b1d7d46266d33cb);
+        
+
+        circle_marker_f46e6daecf894b6eaf945cd19b74fc39.bindPopup(popup_daede39b347e46c08512a3bf5c5f2593)
+        ;
+
+        
+    
+    
+            var circle_marker_1e13c5b2f9d04347bac5f1e44fbfa277 = L.circleMarker(
+                [43.761134000000006, -79.628703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_066060da1fd842b4b2537bc5742efbfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1938adeb2b914fd8a179a7eb922c2bff = $(`<div id="html_1938adeb2b914fd8a179a7eb922c2bff" style="width: 100.0%; height: 100.0%;">WoodbridgeON,2009 0 Deaths</div>`)[0];
+            popup_066060da1fd842b4b2537bc5742efbfe.setContent(html_1938adeb2b914fd8a179a7eb922c2bff);
+        
+
+        circle_marker_1e13c5b2f9d04347bac5f1e44fbfa277.bindPopup(popup_066060da1fd842b4b2537bc5742efbfe)
+        ;
+
+        
+    
+    
+            var circle_marker_4b041560a7054da7b4241865cbc3aba4 = L.circleMarker(
+                [44.6294, -79.679291],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_c1fe2fd816e740d48d9068042fbea336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06c2efda424949a4a8f410758f815f25 = $(`<div id="html_06c2efda424949a4a8f410758f815f25" style="width: 100.0%; height: 100.0%;">MoonstoneON,2009 0 Deaths</div>`)[0];
+            popup_c1fe2fd816e740d48d9068042fbea336.setContent(html_06c2efda424949a4a8f410758f815f25);
+        
+
+        circle_marker_4b041560a7054da7b4241865cbc3aba4.bindPopup(popup_c1fe2fd816e740d48d9068042fbea336)
+        ;
+
+        
+    
+    
+            var circle_marker_355da2126d52479587a394c5125dadb3 = L.circleMarker(
+                [45.934886999999996, -80.224121],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_0d6c182a0cfb4e59afee218162ace28a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8cea3a089234a8ab63054d93a7c30e9 = $(`<div id="html_c8cea3a089234a8ab63054d93a7c30e9" style="width: 100.0%; height: 100.0%;">Dollars LakeON,2009 0 Deaths</div>`)[0];
+            popup_0d6c182a0cfb4e59afee218162ace28a.setContent(html_c8cea3a089234a8ab63054d93a7c30e9);
+        
+
+        circle_marker_355da2126d52479587a394c5125dadb3.bindPopup(popup_0d6c182a0cfb4e59afee218162ace28a)
+        ;
+
+        
+    
+    
+            var circle_marker_a2d978255bea42d8887cdbf2d70dc00c = L.circleMarker(
+                [43.514084000000004, -79.881796],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_ef6c5233afec4c57908ef68bb256a98e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe415aca3af34df5bfd171edb9dccc11 = $(`<div id="html_fe415aca3af34df5bfd171edb9dccc11" style="width: 100.0%; height: 100.0%;">MiltonON,2009 0 Deaths</div>`)[0];
+            popup_ef6c5233afec4c57908ef68bb256a98e.setContent(html_fe415aca3af34df5bfd171edb9dccc11);
+        
+
+        circle_marker_a2d978255bea42d8887cdbf2d70dc00c.bindPopup(popup_ef6c5233afec4c57908ef68bb256a98e)
+        ;
+
+        
+    
+    
+            var circle_marker_b71724141ca04f59a9ff932f82b7d1bc = L.circleMarker(
+                [46.31, -79.47],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_7978639fc4dd4800bf166164eef39149 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce10f2456f5427dae10257af83c5e41 = $(`<div id="html_cce10f2456f5427dae10257af83c5e41" style="width: 100.0%; height: 100.0%;">North BayON,2009 0 Deaths</div>`)[0];
+            popup_7978639fc4dd4800bf166164eef39149.setContent(html_cce10f2456f5427dae10257af83c5e41);
+        
+
+        circle_marker_b71724141ca04f59a9ff932f82b7d1bc.bindPopup(popup_7978639fc4dd4800bf166164eef39149)
+        ;
+
+        
+    
+    
+            var circle_marker_d7aaca2804154dcbbe213a384c327f3e = L.circleMarker(
+                [44.8405, -79.417],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_babef4d8f53b45f0b6411617fcad8356 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d9dbed1e854a588e4d718bfd77a430 = $(`<div id="html_64d9dbed1e854a588e4d718bfd77a430" style="width: 100.0%; height: 100.0%;">GravenhurstON,2009 0 Deaths</div>`)[0];
+            popup_babef4d8f53b45f0b6411617fcad8356.setContent(html_64d9dbed1e854a588e4d718bfd77a430);
+        
+
+        circle_marker_d7aaca2804154dcbbe213a384c327f3e.bindPopup(popup_babef4d8f53b45f0b6411617fcad8356)
+        ;
+
+        
+    
+    
+            var circle_marker_993e8b5a1f6f4e4481f9ae887f5824d6 = L.circleMarker(
+                [43.855294, -79.544134],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_6cce97a6c8a445a282a9a5b6091827a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2353eedd8cd3406e91f86a78fa74e818 = $(`<div id="html_2353eedd8cd3406e91f86a78fa74e818" style="width: 100.0%; height: 100.0%;">MapleON,2009 0 Deaths</div>`)[0];
+            popup_6cce97a6c8a445a282a9a5b6091827a3.setContent(html_2353eedd8cd3406e91f86a78fa74e818);
+        
+
+        circle_marker_993e8b5a1f6f4e4481f9ae887f5824d6.bindPopup(popup_6cce97a6c8a445a282a9a5b6091827a3)
+        ;
+
+        
+    
+    
+            var circle_marker_c009690ddff14867bad9dab7e30d0994 = L.circleMarker(
+                [45.162849, -79.028522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_f467bc646b544ac8ac19169b89970573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0614c12fcb6647ebacb065b0d86b20ff = $(`<div id="html_0614c12fcb6647ebacb065b0d86b20ff" style="width: 100.0%; height: 100.0%;">Ril LakeON,2009 0 Deaths</div>`)[0];
+            popup_f467bc646b544ac8ac19169b89970573.setContent(html_0614c12fcb6647ebacb065b0d86b20ff);
+        
+
+        circle_marker_c009690ddff14867bad9dab7e30d0994.bindPopup(popup_f467bc646b544ac8ac19169b89970573)
+        ;
+
+        
+    
+    
+            var circle_marker_3dd1f72abf904a81aed9bf27df91a05c = L.circleMarker(
+                [45.2592, -78.6732],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_abc0afe0f967499e92b06a0d013fb368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e16eae089164214b54243e8308811cb = $(`<div id="html_2e16eae089164214b54243e8308811cb" style="width: 100.0%; height: 100.0%;">Near Kennisis LakeON,2009 0 Deaths</div>`)[0];
+            popup_abc0afe0f967499e92b06a0d013fb368.setContent(html_2e16eae089164214b54243e8308811cb);
+        
+
+        circle_marker_3dd1f72abf904a81aed9bf27df91a05c.bindPopup(popup_abc0afe0f967499e92b06a0d013fb368)
+        ;
+
+        
+    
+    
+            var circle_marker_7095e696e21d4ee5bd39c1915801e478 = L.circleMarker(
+                [45.185, -78.526977],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_d7a90ee7c4bf4fcaa784c3973e6b09ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3394d87d21f44698fc612906fd5579f = $(`<div id="html_a3394d87d21f44698fc612906fd5579f" style="width: 100.0%; height: 100.0%;">Redstone LakeON,2009 0 Deaths</div>`)[0];
+            popup_d7a90ee7c4bf4fcaa784c3973e6b09ce.setContent(html_a3394d87d21f44698fc612906fd5579f);
+        
+
+        circle_marker_7095e696e21d4ee5bd39c1915801e478.bindPopup(popup_d7a90ee7c4bf4fcaa784c3973e6b09ce)
+        ;
+
+        
+    
+    
+            var circle_marker_7f1041149bbc42c892cbcc11bdffe58d = L.circleMarker(
+                [44.045085, -78.542112],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_882613c10d724eb591fe7bd2f2dbdc8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c45678201ba34f9f827d06063abdf5d3 = $(`<div id="html_c45678201ba34f9f827d06063abdf5d3" style="width: 100.0%; height: 100.0%;">OronoON,2009 0 Deaths</div>`)[0];
+            popup_882613c10d724eb591fe7bd2f2dbdc8e.setContent(html_c45678201ba34f9f827d06063abdf5d3);
+        
+
+        circle_marker_7f1041149bbc42c892cbcc11bdffe58d.bindPopup(popup_882613c10d724eb591fe7bd2f2dbdc8e)
+        ;
+
+        
+    
+    
+            var circle_marker_4b9c9a6d6c564603ba9fa8e47083dcb0 = L.circleMarker(
+                [44.211456, -78.150194],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_b2d1c22211cc467797b1c8c4851574f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bd17439834047e7913951e6e235c1ba = $(`<div id="html_1bd17439834047e7913951e6e235c1ba" style="width: 100.0%; height: 100.0%;">Rice Lake to Otonabee-South MonaghanON,2009 0 Deaths</div>`)[0];
+            popup_b2d1c22211cc467797b1c8c4851574f4.setContent(html_1bd17439834047e7913951e6e235c1ba);
+        
+
+        circle_marker_4b9c9a6d6c564603ba9fa8e47083dcb0.bindPopup(popup_b2d1c22211cc467797b1c8c4851574f4)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b03026c7784cefbc93fe552f605509 = L.circleMarker(
+                [44.998258, -77.683351],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_354ff44c8b5942809321cc3238b956af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02d586994acf4c0c92c6eca2fa95975f = $(`<div id="html_02d586994acf4c0c92c6eca2fa95975f" style="width: 100.0%; height: 100.0%;">Carlow MayoON,2009 0 Deaths</div>`)[0];
+            popup_354ff44c8b5942809321cc3238b956af.setContent(html_02d586994acf4c0c92c6eca2fa95975f);
+        
+
+        circle_marker_c3b03026c7784cefbc93fe552f605509.bindPopup(popup_354ff44c8b5942809321cc3238b956af)
+        ;
+
+        
+    
+    
+            var circle_marker_3be636b7706442378f6a6cab18e36f8f = L.circleMarker(
+                [45.005316, -77.060822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_55ed1b880b8e48299aa11266ab7b3bb3);
+        
+    
+        var popup_db9dc1fb1c5945c1b9fc8469ccb3611f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00d7bdc8f4704946b948f35cbdff4712 = $(`<div id="html_00d7bdc8f4704946b948f35cbdff4712" style="width: 100.0%; height: 100.0%;">Buckshot LakeON,2009 0 Deaths</div>`)[0];
+            popup_db9dc1fb1c5945c1b9fc8469ccb3611f.setContent(html_00d7bdc8f4704946b948f35cbdff4712);
+        
+
+        circle_marker_3be636b7706442378f6a6cab18e36f8f.bindPopup(popup_db9dc1fb1c5945c1b9fc8469ccb3611f)
+        ;
+
+        
+    
+</script>
