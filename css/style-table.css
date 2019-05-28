@@ -16,7 +16,7 @@ table.dataframe td, table.dataframe th {
     padding-right: 0.25em;
 }
 table.dataframe th:not(:empty) {
-    background-color: #fec;
+    background-color: #c4bd97;
     text-align: left;
     font-weight: normal;
 }
@@ -25,6 +25,6 @@ table.dataframe tr:nth-child(2) th:empty {
     border-right: 1px dashed #888;
 }
 table.dataframe td {
-    border: 2px solid #ccf;
-    background-color: #f4f4ff;
+    border: 2px solid #f9f9f9;
+    background-color: #e5e5e5;
 }
