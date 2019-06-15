@@ -16,7 +16,6 @@
 ## Limitations of Dataset
 
 * The only data available from the Government of Canada covers the 1980 to 2009 period.
-* There is missing data on the total size of tornadoes.  No distinction is made on what F category a tornado has. A F1 tornado is treated the same as a F4 tornado for example.
 * This only captures tornadoes that were recorded.  It would not take into account tornadoes that hit non populated areas.  Therefore I always qualify findings as 'tornadoes in populated communities'. No data can really be discerned on the amount of activity country wide.
 * As this is a learning exercise only, no attempt is being made to add extra data from other sources or the periods of 2010-2019.  The goal is to see what this government provided dataset actually tells us.
 
